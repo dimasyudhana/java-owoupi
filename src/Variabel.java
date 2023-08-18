@@ -13,9 +13,9 @@ public class Variabel {
         name = "Carlo Zapata";
         System.out.println(name);
 
-        var firstName = "John";
-        var middleName = "F";
-        var lastName = "Khannedy";
+        String firstName = "John";
+        String middleName = "F";
+        String lastName = "Khannedy";
 
         // kalau di Golang ini namanya const
         final String application = "Belajar Java";

@@ -1,12 +1,12 @@
 public class IfStatement {
     public static void main(String[] args) {
-        var absen = 70;
-        var nilai = 90;
+        int absen = 70;
+        int nilai = 90;
 
-        var lulusAbsen = absen >= 80;
-        var lulusNilai = nilai >= 80 ;
+        boolean lulusAbsen = absen >= 80;
+        boolean lulusNilai = nilai >= 80 ;
 
-        var lulus = lulusAbsen && lulusNilai;
+        boolean lulus = lulusAbsen && lulusNilai;
 
         if(absen >= 80 && nilai >= 80){
             System.out.println("selamat anda lulus bro"); //jika true ya hasilnya ini

@@ -4,7 +4,7 @@ public class OperasiBoolean {
         int nilaiAkhir = 80;
         boolean lulusAbsen = absen >= 75;
         boolean lulusNilaiAkhir = nilaiAkhir >=75;
-        var lulus = lulusAbsen && lulusNilaiAkhir;
+        boolean lulus = lulusAbsen && lulusNilaiAkhir;
         System.out.println(lulus);
     }
 }

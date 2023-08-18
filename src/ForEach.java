@@ -6,7 +6,7 @@ public class ForEach {
                 "Richard", "Barker",
         };
 
-        for (var i = 0; i < names.length ; i++) {
+        for (int i = 0; i < names.length ; i++) {
             System.out.println(names[i]);
         }
 

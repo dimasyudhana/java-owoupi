@@ -22,7 +22,7 @@ public class ForLoop {
 //            counter++;
 //        }
 
-        for (var counter = 1; counter <= 10;counter++) {
+        for (int counter = 1; counter <= 10;counter++) {
             System.out.println("Perulangan ke - " + counter);
         }
     }
